@@ -1,6 +1,7 @@
 import React from 'react'
 import { MainData } from '../data'
 import '../Design/designMain/Main.css'
+import styled from 'styled-components'
 
 function Main() {
     return (
@@ -9,7 +10,7 @@ function Main() {
                 MainData && MainData.map(main => {
                     return (
                         <div className="blog-main" key={main.mainId}>
-                            <img className="blog-main-image" src={main.mainImage} />
+                            <Image className="blog-main-image" src={main.mainImage} />
                             <div className="blog-main-content">
                                 <h1>{main.mainTitle}</h1>
                                 <p>{main.mainParagraph}</p>
@@ -28,5 +29,14 @@ function Main() {
         </div>
     )
 }
+
+const Image = styled.img`
+    opacity: 1;
+    :hover{
+        opacity: .5;
+        transition: all .5s;
+    }
+    
+`
 
 export default Main

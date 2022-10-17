@@ -1,6 +1,7 @@
 import React from 'react'
 import { Data } from "../data"
 import "../Design/designSummary/Summary.css"
+import styled from 'styled-components'
 
 function Summary() {
     return (
@@ -9,7 +10,7 @@ function Summary() {
                 Data && Data.map(data => {
                     return (
                         <div className="blog-summary" key={data.id}>
-                            <img className='blog-summary-image' src={data.image} />
+                            <Image className='blog-summary-image' src={data.image}/>
                             <h1>{data.title}</h1>
                             <p>{data.paragraph}</p>
                             <div className="blog-summary-author">
@@ -26,5 +27,14 @@ function Summary() {
         </div>
     )
 }
+
+const Image = styled.img`
+    opacity: 1;
+    :hover{
+        opacity: .5;
+        transition: all .5s;
+    }
+    
+`
 
 export default Summary
