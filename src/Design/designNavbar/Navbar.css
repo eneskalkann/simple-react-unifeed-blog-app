@@ -7,6 +7,7 @@
 .navbar img {
   margin-right: 35%;
   cursor: pointer;
+  margin-top: -35px;
 }
 .navbar-btn {
   cursor: pointer;
@@ -64,6 +65,7 @@
     position: absolute;
     top: 1.7rem;
     left: 3rem;
+    margin-top: 0;
   }
   .navbar ul {
     position: fixed;
