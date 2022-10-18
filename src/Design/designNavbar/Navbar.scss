@@ -18,6 +18,9 @@
     font-size: 1.8rem;
     opacity: 0;
   }
+  &-btn-close{
+    display: none;
+  }
   ul {
     max-width: 360px;
     display: flex;
@@ -100,6 +103,7 @@
       top: 1.7rem;
       right: 3rem;
       z-index: 1;
+      display: flex;
       visibility: visible;
       opacity: 1;
       color: #000;
