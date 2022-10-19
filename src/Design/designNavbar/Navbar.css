@@ -5,16 +5,20 @@
   margin-top: 30px;
 }
 .navbar img {
-  margin-right: 35%;
+  margin-right: 36%;
   cursor: pointer;
   margin-top: -35px;
+}
+.navbar .items {
+  color: #000;
+  text-decoration: none;
+  color: rgb(91, 94, 93);
 }
 .navbar-btn {
   cursor: pointer;
   background: transparent;
   border: none;
   outline: none;
-  color: #d0d6f9;
   visibility: hidden;
   font-size: 1.8rem;
   opacity: 0;
@@ -30,7 +34,6 @@
   list-style: none;
   gap: 30px;
   align-items: center;
-  color: rgb(91, 94, 93);
   font-weight: 400;
 }
 .navbar ul :hover {
@@ -91,7 +94,7 @@
   .navbar ul .home-item {
     margin-top: 40px;
   }
-  .navbar li {
+  .navbar .items {
     font-size: 17px;
     font-weight: 600;
     -webkit-backdrop-filter: initial;
