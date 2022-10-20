@@ -26,10 +26,10 @@ function Navbar() {
       <img src={image} alt="unifeed" />
       <nav>
         <ul ref={navbarRef}>
-          <NavLink exact to="/" className='items home-item' style={{navActiveStyle}}><a>Home</a></NavLink>
-          <NavLink to="" className='items' style={{navActiveStyle}}><a>Features</a></NavLink>
-          <NavLink to="" className='items' style={{navActiveStyle}}><a>Pricing</a></NavLink>
-          <NavLink to="/subs" className='items subscribe' style={{navActiveStyle}}><a>Subscribe</a></NavLink>
+          <NavLink exact="true" to="/" className='items home-item' style={{navActiveStyle}}>Home</NavLink>
+          <NavLink to="" className='items' style={{navActiveStyle}}>Features</NavLink>
+          <NavLink to="/pricing" className='items' style={{navActiveStyle}}>Pricing</NavLink>
+          <NavLink to="/subs" className='items subscribe' style={{navActiveStyle}}>Subscribe</NavLink>
           <button onClick={showNavbar} className="navbar-btn navbar-btn-close">
             <FaTimes/>
           </button>
