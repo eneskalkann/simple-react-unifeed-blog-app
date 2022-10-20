@@ -72,3 +72,29 @@ export const PricingData= [
     "pricingSubs" : "Subs Now"
   }
 ]
+
+export const FeaturesMainData = [
+  {
+    "featuresId" :1,
+    "featuresTitle" : "Features",
+    "featuresSlogan" : "Easy posting. More views",
+  }
+]
+
+export const FeaturesCardsData = [
+  {
+    "cardsId" : 1,
+    "cardsTitle" : "Quick Post Sharing",
+    "cardsParagraph" : "We designed our infrastructure for faster post sharing."
+  },
+  {
+    "cardsId" : 2,
+    "cardsTitle" : "SEO Compatible Posts",
+    "cardsParagraph" : "Get more views with seo compatibility."
+  },
+  {
+    "cardsId" : 3,
+    "cardsTitle" : "Fast Customer Service",
+    "cardsParagraph" : "When you have a problem with our site our customer services helps quickly."
+  }
+]
