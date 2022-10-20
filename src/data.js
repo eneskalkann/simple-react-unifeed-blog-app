@@ -48,3 +48,27 @@ export const SubsData = [
     "subsImage" :("https://freesvg.org/img/nicubunu_Toy_rocket.png")
   }
 ]
+
+export const PricingData= [
+  {
+    "pricingId" : 1,
+    "pricingTitle" : "FREE",
+    "pricingPrice" : "0$",
+    "pricingFeatures" : "Fully Free",
+    "pricingSubs" : "Subs Now"
+  },
+  {
+    "pricingId" : 2,
+    "pricingTitle" : "PREMIUM",
+    "pricingPrice" : "13$",
+    "pricingFeatures" : "Fully Free",
+    "pricingSubs" : "Subs Now"
+  },
+  {
+    "pricingId" : 3,
+    "pricingTitle" : "PLATINUM",
+    "pricingPrice" : "29$",
+    "pricingFeatures" : "Fully Free",
+    "pricingSubs" : "Subs Now"
+  }
+]
