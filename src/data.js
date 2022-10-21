@@ -45,7 +45,6 @@ export const SubsData = [
     "subsId" : 1,
     "subsTitle" : "We will start receiving subscriptions very soon..",
     "subsParagraph" : "Thank's for your interest.",
-    "subsImage" :("https://freesvg.org/img/nicubunu_Toy_rocket.png")
   }
 ]
 
