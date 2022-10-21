@@ -3,6 +3,7 @@ import { SubsData } from "../data"
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import styled from 'styled-components'
+import image from '../Assets/outer-space.svg'
 
 function Subs() {
     return (
@@ -16,7 +17,7 @@ function Subs() {
                                 <h2>{subs.subsTitle}</h2>
                                 <p>{subs.subsParagraph}</p>
                             </div>
-                            <img src={subs.subsImage} alt="launch" />
+                            <img src={image} alt="launch" />
                         </SubsContainer>
                     )
                 })
@@ -31,7 +32,7 @@ const SubsContainer = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 133.1px;
     overflow: hidden;
     max-width: 100%;
     gap: 10px;
@@ -59,18 +60,20 @@ const SubsContainer = styled.div`
         margin-top: 80px;
         margin-bottom: 150px;
     img{
-        max-width: 350px;
+        max-width: 450px;
     }
     }
     @media screen and (max-width:1090px){
     gap: 0px;
-    margin-top: 160px;
-    margin-bottom: 220px;
+    margin-top: 70px;
+    margin-bottom: 130px;
     img{
-        max-width: 200px;
+        max-width: 350px;
     }
         h2{
             font-size: 24px;
+            
+        max-width: 440px;
         }
         p{
             font-size: 16px;
@@ -78,16 +81,19 @@ const SubsContainer = styled.div`
     }
     @media screen and (max-width:920px) {
         flex-direction: column;
-    margin-top: 50px;
-    margin-bottom: 120px;
-    gap: 40px;
+        margin-top: 0px;
+        margin-bottom: 70px;
+        gap: 40px;
     }
     @media screen and (max-width:620px) {
         flex-direction: column;
         margin-top: 0px;
-        margin-bottom: 120px;
+        margin-bottom: 45px;
         gap: 40px;
         text-align: center;
+        img{
+            max-width: 300px;
+        }
         h2{
             margin-top: 140px;
         }
