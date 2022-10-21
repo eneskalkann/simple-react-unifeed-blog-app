@@ -14,6 +14,7 @@ In this project i tested my knowledge on local data also i added a simple animat
  * Framer Motion
  * React Hooks
  * Styled Components
+ * React Router 
  
  ##### Project Setup
  ```
