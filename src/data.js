@@ -54,21 +54,21 @@ export const PricingData= [
     "pricingId" : 1,
     "pricingTitle" : "FREE",
     "pricingPrice" : "0$",
-    "pricingFeatures" : "Fully Free",
+    "pricingFeatures" : "Standart Using",
     "pricingSubs" : "Subs Now"
   },
   {
     "pricingId" : 2,
     "pricingTitle" : "PREMIUM",
     "pricingPrice" : "13$",
-    "pricingFeatures" : "Fully Free",
+    "pricingFeatures" : "Seo Compatible",
     "pricingSubs" : "Subs Now"
   },
   {
     "pricingId" : 3,
     "pricingTitle" : "PLATINUM",
     "pricingPrice" : "29$",
-    "pricingFeatures" : "Fully Free",
+    "pricingFeatures" : "Seo Compatible and Fast Customer Services",
     "pricingSubs" : "Subs Now"
   }
 ]
@@ -77,7 +77,7 @@ export const FeaturesMainData = [
   {
     "featuresId" :1,
     "featuresTitle" : "Features",
-    "featuresSlogan" : "Easy posting. More views",
+    "featuresSlogan" : "Easy posting. More views.",
   }
 ]
 
@@ -85,16 +85,19 @@ export const FeaturesCardsData = [
   {
     "cardsId" : 1,
     "cardsTitle" : "Quick Post Sharing",
-    "cardsParagraph" : "We designed our infrastructure for faster post sharing."
+    "cardsParagraph" : "We designed our infrastructure for faster post sharing.",
+    "cardsIcon" : require("./Assets/icons8-quick.png")
   },
   {
     "cardsId" : 2,
     "cardsTitle" : "SEO Compatible Posts",
-    "cardsParagraph" : "Get more views with seo compatibility."
+    "cardsParagraph" : "Get more views with seo compatibility.",
+    "cardsIcon" : require("./Assets/icons8-seo.png")
   },
   {
     "cardsId" : 3,
     "cardsTitle" : "Fast Customer Service",
-    "cardsParagraph" : "When you have a problem with our site our customer services helps quickly."
+    "cardsParagraph" : "When you have a problem with our site our customer services helps quickly.",
+    "cardsIcon" : require("./Assets/icons8-customer-support.png")
   }
 ]
