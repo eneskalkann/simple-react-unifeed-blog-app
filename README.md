@@ -1,6 +1,7 @@
 # Unifeed Blog Page
 
-This project is a Codewell project. Challenge [Link](https://www.codewell.cc/challenges/unifeed-blog-page--608d9d5c747bad001532bd7c)
+This project is a Codewell project. Challenge [Link](https://www.codewell.cc/challenges/unifeed-blog-page--608d9d5c747bad001532bd7c).
+Challenge is only had homepage but i wanted to add the other pages myself. Finally i had a lot of fun doing this project.
 
 # Live Demo is [Here](https://simple-react-unifeed-blog-app.vercel.app/)
 
@@ -14,6 +15,7 @@ In this project i tested my knowledge on local data also i added a simple animat
  * Framer Motion
  * React Hooks
  * Styled Components
+ * React Icons
  * React Router 
  
  ##### Project Setup
