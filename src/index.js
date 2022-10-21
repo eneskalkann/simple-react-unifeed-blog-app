@@ -5,12 +5,14 @@ import App from './App';
 import Subs from './Pages/Subs';
 import Pricing from './Pages/Pricing';
 import { BrowserRouter , Routes , Route} from 'react-router-dom';
+import Features from './Pages/Features';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App/>}/>      
+      <Route path="/" element={<App/>}/>
+      <Route path="features" element={<Features/>}/>
       <Route path="pricing" element={<Pricing/>}/>
       <Route path="subs" element={<Subs/>}/>
     </Routes>
