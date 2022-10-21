@@ -40,7 +40,7 @@ const PricingContainer = styled.div`
         border-radius: 20px;
         background-color: #fff;
         text-align: end;
-        margin-top:20px;
+        margin-top:10px;
         :hover{
             background-image: linear-gradient(80deg, #e38811 50% , #fff);
             color: white;
